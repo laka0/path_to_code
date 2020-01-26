@@ -1,0 +1,129 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* 
+
+CODE 
+
+*/ 
+.logo {
+    position: absolute;
+    width: 450px;
+    height: 152px;
+
+    top: 25%;
+    left: 50%;
+
+    margin-left: -225px;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.search_bar{
+    position: absolute;
+    width: 850px;
+    height: 60px;
+
+    top: 40%;
+    left: 50%;
+
+    margin-left: -450px;
+    
+
+    
+
+}
+
+.search_bar form, .search_bar input{
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    border-radius: 35px;
+    font-size: 30px;
+
+}
+
+.search_bar input{
+    border: 1px solid #dfe1e5;
+}
+
+.search_bar input:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+
+.buttons{
+    position: absolute;
+    display: inline-block;
+
+    top: 49%;
+    left: 50%;
+    margin-left: -260px;
+}
+
+.buttons button{
+    width: 240px;
+    height: 63px;
+    margin-right: 10px;
+    padding: 0 10px 0 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    font-size: 23px;
+    color: #5F6368;
+
+}
+
+.buttons button:hover{
+    color: #222;
+    border: 1px solid #c6c6c6;
+}

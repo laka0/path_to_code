@@ -1,0 +1,2 @@
+def howManyMedalsByCountry(data, country):
+    
