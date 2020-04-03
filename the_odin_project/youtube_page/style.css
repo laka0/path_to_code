@@ -369,3 +369,23 @@ a {
   color: blue;
   text-decoration: none;
 }
+
+/*** ======
+
+NAV BAR
+
+====== ***/
+nav{
+    position: relative;
+    height: 10%;
+    width: 100%;
+}
+
+.logo img{
+    width: 80px;
+    height: 24px;
+}
+
+nav form{
+    display: inline-block;
+}
