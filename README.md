@@ -1,2 +1,2 @@
 # path_to_code
-Exercises and project during my formation to code
+Exercises and projects realized during my formation to code
